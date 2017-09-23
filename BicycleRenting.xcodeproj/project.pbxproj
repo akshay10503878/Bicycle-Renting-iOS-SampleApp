@@ -1,0 +1,826 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		301424791F265991004ABF54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 301424781F265991004ABF54 /* main.m */; };
+		3014247C1F265991004ABF54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3014247B1F265991004ABF54 /* AppDelegate.m */; };
+		301424821F265991004ABF54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301424801F265991004ABF54 /* Main.storyboard */; };
+		301424851F265991004ABF54 /* BicycleRenting.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 301424831F265991004ABF54 /* BicycleRenting.xcdatamodeld */; };
+		301424871F265991004ABF54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 301424861F265991004ABF54 /* Assets.xcassets */; };
+		3014248A1F265991004ABF54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301424881F265991004ABF54 /* LaunchScreen.storyboard */; };
+		301424951F265991004ABF54 /* BicycleRentingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 301424941F265991004ABF54 /* BicycleRentingTests.m */; };
+		301424A01F265991004ABF54 /* BicycleRentingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3014249F1F265991004ABF54 /* BicycleRentingUITests.m */; };
+		303E3FBE1F266AE500DB8A6E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 303E3FBD1F266AE500DB8A6E /* LoginViewController.m */; };
+		303E3FC11F266B1A00DB8A6E /* RegisterNewUserVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 303E3FC01F266B1A00DB8A6E /* RegisterNewUserVC.m */; };
+		303E3FCA1F266E0C00DB8A6E /* bicycleLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 303E3FC71F266E0C00DB8A6E /* bicycleLogo.png */; };
+		303E3FCB1F266E0C00DB8A6E /* crossoverlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 303E3FC81F266E0C00DB8A6E /* crossoverlogo.png */; };
+		303E3FCC1F266E0C00DB8A6E /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 303E3FC91F266E0C00DB8A6E /* logo.png */; };
+		303E3FD31F26790000DB8A6E /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 303E3FD21F26790000DB8A6E /* Utility.m */; };
+		303E3FD51F267E8900DB8A6E /* UserLoginLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 303E3FD41F267E8900DB8A6E /* UserLoginLogo.png */; };
+		303E3FDA1F26EF7A00DB8A6E /* KeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 303E3FD91F26EF7A00DB8A6E /* KeychainWrapper.m */; };
+		303E3FDE1F26F7C400DB8A6E /* BicycleRentingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 303E3FDD1F26F7C400DB8A6E /* BicycleRentingVC.m */; };
+		303E3FE11F26F7E300DB8A6E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303E3FE01F26F7E300DB8A6E /* MapKit.framework */; };
+		303E3FE31F26F94800DB8A6E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303E3FE21F26F94800DB8A6E /* CoreLocation.framework */; };
+		303E3FE51F26F94D00DB8A6E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303E3FE41F26F94D00DB8A6E /* CoreGraphics.framework */; };
+		303E3FE71F26F95100DB8A6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303E3FE61F26F95100DB8A6E /* UIKit.framework */; };
+		303E3FE91F26F95900DB8A6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303E3FE81F26F95900DB8A6E /* Foundation.framework */; };
+		303E3FEC1F26FFA900DB8A6E /* BiclycleLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 303E3FEB1F26FFA900DB8A6E /* BiclycleLocation.m */; };
+		3070A7231F27C42C00D2DE9E /* OrderHistory.png in Resources */ = {isa = PBXBuildFile; fileRef = 3070A7221F27C42C00D2DE9E /* OrderHistory.png */; };
+		30B171F31F271628000B0A77 /* locationPin.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B171F21F271628000B0A77 /* locationPin.png */; };
+		30B171F61F272452000B0A77 /* MyCustomPinAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B171F51F272452000B0A77 /* MyCustomPinAnnotationView.m */; };
+		30B171F81F27303D000B0A77 /* bookingIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B171F71F27303D000B0A77 /* bookingIcon.png */; };
+		30B171FA1F273933000B0A77 /* CustomAnnotationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30B171F91F273933000B0A77 /* CustomAnnotationView.xib */; };
+		30B171FD1F273FE0000B0A77 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B171FC1F273FE0000B0A77 /* next.png */; };
+		30B171FF1F276533000B0A77 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B171FE1F276533000B0A77 /* back.png */; };
+		30B172021F2767FB000B0A77 /* back_button_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B172011F2767FB000B0A77 /* back_button_white.png */; };
+		30B172061F2769A4000B0A77 /* SelectBicycleTypeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B172051F2769A4000B0A77 /* SelectBicycleTypeVC.m */; };
+		30B1720C1F2772EA000B0A77 /* PaymentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B1720B1F2772EA000B0A77 /* PaymentVC.m */; };
+		30B1720E1F277CDB000B0A77 /* creditCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B1720D1F277CDB000B0A77 /* creditCard.png */; };
+		30B172141F27AE16000B0A77 /* CreditCardHistoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B172131F27AE16000B0A77 /* CreditCardHistoryVC.m */; };
+		30B172171F27B1C6000B0A77 /* CreditCardHistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B172161F27B1C6000B0A77 /* CreditCardHistoryCell.m */; };
+		30B1721A1F27B893000B0A77 /* paymentDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B172191F27B893000B0A77 /* paymentDetails.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		301424911F265991004ABF54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3014246C1F265991004ABF54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 301424731F265991004ABF54;
+			remoteInfo = CrossOverBicycle;
+		};
+		3014249C1F265991004ABF54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3014246C1F265991004ABF54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 301424731F265991004ABF54;
+			remoteInfo = CrossOverBicycle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		301424741F265991004ABF54 /* BicycleRenting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BicycleRenting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		301424781F265991004ABF54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3014247A1F265991004ABF54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3014247B1F265991004ABF54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		301424811F265991004ABF54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		301424841F265991004ABF54 /* BicycleRenting.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BicycleRenting.xcdatamodel; sourceTree = "<group>"; };
+		301424861F265991004ABF54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		301424891F265991004ABF54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3014248B1F265991004ABF54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		301424901F265991004ABF54 /* BicycleRentingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BicycleRentingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		301424941F265991004ABF54 /* BicycleRentingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BicycleRentingTests.m; sourceTree = "<group>"; };
+		301424961F265991004ABF54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3014249B1F265991004ABF54 /* BicycleRentingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BicycleRentingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3014249F1F265991004ABF54 /* BicycleRentingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BicycleRentingUITests.m; sourceTree = "<group>"; };
+		301424A11F265991004ABF54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		303E3FBC1F266AE500DB8A6E /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		303E3FBD1F266AE500DB8A6E /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		303E3FBF1F266B1A00DB8A6E /* RegisterNewUserVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterNewUserVC.h; sourceTree = "<group>"; };
+		303E3FC01F266B1A00DB8A6E /* RegisterNewUserVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterNewUserVC.m; sourceTree = "<group>"; };
+		303E3FC71F266E0C00DB8A6E /* bicycleLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bicycleLogo.png; sourceTree = "<group>"; };
+		303E3FC81F266E0C00DB8A6E /* crossoverlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crossoverlogo.png; sourceTree = "<group>"; };
+		303E3FC91F266E0C00DB8A6E /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		303E3FD01F266F4D00DB8A6E /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		303E3FD11F26790000DB8A6E /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		303E3FD21F26790000DB8A6E /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		303E3FD41F267E8900DB8A6E /* UserLoginLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UserLoginLogo.png; sourceTree = "<group>"; };
+		303E3FD81F26EF7A00DB8A6E /* KeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainWrapper.h; sourceTree = "<group>"; };
+		303E3FD91F26EF7A00DB8A6E /* KeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainWrapper.m; sourceTree = "<group>"; };
+		303E3FDC1F26F7C400DB8A6E /* BicycleRentingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BicycleRentingVC.h; sourceTree = "<group>"; };
+		303E3FDD1F26F7C400DB8A6E /* BicycleRentingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BicycleRentingVC.m; sourceTree = "<group>"; };
+		303E3FE01F26F7E300DB8A6E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		303E3FE21F26F94800DB8A6E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		303E3FE41F26F94D00DB8A6E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		303E3FE61F26F95100DB8A6E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		303E3FE81F26F95900DB8A6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		303E3FEA1F26FFA900DB8A6E /* BiclycleLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BiclycleLocation.h; sourceTree = "<group>"; };
+		303E3FEB1F26FFA900DB8A6E /* BiclycleLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BiclycleLocation.m; sourceTree = "<group>"; };
+		3070A7221F27C42C00D2DE9E /* OrderHistory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OrderHistory.png; sourceTree = "<group>"; };
+		30B171F21F271628000B0A77 /* locationPin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = locationPin.png; sourceTree = "<group>"; };
+		30B171F41F272452000B0A77 /* MyCustomPinAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomPinAnnotationView.h; sourceTree = "<group>"; };
+		30B171F51F272452000B0A77 /* MyCustomPinAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomPinAnnotationView.m; sourceTree = "<group>"; };
+		30B171F71F27303D000B0A77 /* bookingIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookingIcon.png; sourceTree = "<group>"; };
+		30B171F91F273933000B0A77 /* CustomAnnotationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomAnnotationView.xib; sourceTree = "<group>"; };
+		30B171FC1F273FE0000B0A77 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		30B171FE1F276533000B0A77 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		30B172011F2767FB000B0A77 /* back_button_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_button_white.png; sourceTree = "<group>"; };
+		30B172041F2769A4000B0A77 /* SelectBicycleTypeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectBicycleTypeVC.h; sourceTree = "<group>"; };
+		30B172051F2769A4000B0A77 /* SelectBicycleTypeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectBicycleTypeVC.m; sourceTree = "<group>"; };
+		30B1720A1F2772EA000B0A77 /* PaymentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentVC.h; sourceTree = "<group>"; };
+		30B1720B1F2772EA000B0A77 /* PaymentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentVC.m; sourceTree = "<group>"; };
+		30B1720D1F277CDB000B0A77 /* creditCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = creditCard.png; sourceTree = "<group>"; };
+		30B1720F1F27ABB1000B0A77 /* libHVTableView.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHVTableView.a; path = "Pods/../build/Debug-iphoneos/HVTableView/libHVTableView.a"; sourceTree = "<group>"; };
+		30B172121F27AE16000B0A77 /* CreditCardHistoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditCardHistoryVC.h; sourceTree = "<group>"; };
+		30B172131F27AE16000B0A77 /* CreditCardHistoryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditCardHistoryVC.m; sourceTree = "<group>"; };
+		30B172151F27B1C6000B0A77 /* CreditCardHistoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditCardHistoryCell.h; sourceTree = "<group>"; };
+		30B172161F27B1C6000B0A77 /* CreditCardHistoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditCardHistoryCell.m; sourceTree = "<group>"; };
+		30B172181F27B893000B0A77 /* paymentDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = paymentDetails.h; sourceTree = "<group>"; };
+		30B172191F27B893000B0A77 /* paymentDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = paymentDetails.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		301424711F265991004ABF54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303E3FE91F26F95900DB8A6E /* Foundation.framework in Frameworks */,
+				303E3FE71F26F95100DB8A6E /* UIKit.framework in Frameworks */,
+				303E3FE51F26F94D00DB8A6E /* CoreGraphics.framework in Frameworks */,
+				303E3FE31F26F94800DB8A6E /* CoreLocation.framework in Frameworks */,
+				303E3FE11F26F7E300DB8A6E /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3014248D1F265991004ABF54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		301424981F265991004ABF54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3014246B1F265991004ABF54 = {
+			isa = PBXGroup;
+			children = (
+				301424761F265991004ABF54 /* BicycleRenting */,
+				301424931F265991004ABF54 /* BicycleRentingTests */,
+				3014249E1F265991004ABF54 /* BicycleRentingUITests */,
+				303E3FDF1F26F7E300DB8A6E /* Frameworks */,
+				301424751F265991004ABF54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		301424751F265991004ABF54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				301424741F265991004ABF54 /* BicycleRenting.app */,
+				301424901F265991004ABF54 /* BicycleRentingTests.xctest */,
+				3014249B1F265991004ABF54 /* BicycleRentingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		301424761F265991004ABF54 /* BicycleRenting */ = {
+			isa = PBXGroup;
+			children = (
+				30B172001F276736000B0A77 /* AppDelegate */,
+				303E3FDB1F26F6E800DB8A6E /* BicycleRentingVC's */,
+				303E3FD61F26EF4900DB8A6E /* Constants */,
+				303E3FC21F266DC400DB8A6E /* Images */,
+				303E3FC31F266DCA00DB8A6E /* LoginScreenVC */,
+				303E3FC41F266DD500DB8A6E /* RegisterScreenVC */,
+				301424771F265991004ABF54 /* Supporting Files */,
+				301424861F265991004ABF54 /* Assets.xcassets */,
+				301424831F265991004ABF54 /* BicycleRenting.xcdatamodeld */,
+				3014248B1F265991004ABF54 /* Info.plist */,
+				301424881F265991004ABF54 /* LaunchScreen.storyboard */,
+				301424801F265991004ABF54 /* Main.storyboard */,
+				303E3FD11F26790000DB8A6E /* Utility.h */,
+				303E3FD21F26790000DB8A6E /* Utility.m */,
+			);
+			path = BicycleRenting;
+			sourceTree = "<group>";
+		};
+		301424771F265991004ABF54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				303E3FD71F26EF6700DB8A6E /* KeychainWrapper */,
+				301424781F265991004ABF54 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		301424931F265991004ABF54 /* BicycleRentingTests */ = {
+			isa = PBXGroup;
+			children = (
+				301424941F265991004ABF54 /* BicycleRentingTests.m */,
+				301424961F265991004ABF54 /* Info.plist */,
+			);
+			path = BicycleRentingTests;
+			sourceTree = "<group>";
+		};
+		3014249E1F265991004ABF54 /* BicycleRentingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3014249F1F265991004ABF54 /* BicycleRentingUITests.m */,
+				301424A11F265991004ABF54 /* Info.plist */,
+			);
+			path = BicycleRentingUITests;
+			sourceTree = "<group>";
+		};
+		303E3FC21F266DC400DB8A6E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3070A7221F27C42C00D2DE9E /* OrderHistory.png */,
+				303E3FD41F267E8900DB8A6E /* UserLoginLogo.png */,
+				30B171FE1F276533000B0A77 /* back.png */,
+				30B172011F2767FB000B0A77 /* back_button_white.png */,
+				303E3FC71F266E0C00DB8A6E /* bicycleLogo.png */,
+				30B171F71F27303D000B0A77 /* bookingIcon.png */,
+				30B1720D1F277CDB000B0A77 /* creditCard.png */,
+				303E3FC81F266E0C00DB8A6E /* crossoverlogo.png */,
+				30B171F21F271628000B0A77 /* locationPin.png */,
+				303E3FC91F266E0C00DB8A6E /* logo.png */,
+				30B171FC1F273FE0000B0A77 /* next.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		303E3FC31F266DCA00DB8A6E /* LoginScreenVC */ = {
+			isa = PBXGroup;
+			children = (
+				303E3FBC1F266AE500DB8A6E /* LoginViewController.h */,
+				303E3FBD1F266AE500DB8A6E /* LoginViewController.m */,
+			);
+			path = LoginScreenVC;
+			sourceTree = "<group>";
+		};
+		303E3FC41F266DD500DB8A6E /* RegisterScreenVC */ = {
+			isa = PBXGroup;
+			children = (
+				303E3FBF1F266B1A00DB8A6E /* RegisterNewUserVC.h */,
+				303E3FC01F266B1A00DB8A6E /* RegisterNewUserVC.m */,
+			);
+			path = RegisterScreenVC;
+			sourceTree = "<group>";
+		};
+		303E3FD61F26EF4900DB8A6E /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				303E3FD01F266F4D00DB8A6E /* Constants.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		303E3FD71F26EF6700DB8A6E /* KeychainWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				303E3FD81F26EF7A00DB8A6E /* KeychainWrapper.h */,
+				303E3FD91F26EF7A00DB8A6E /* KeychainWrapper.m */,
+			);
+			path = KeychainWrapper;
+			sourceTree = "<group>";
+		};
+		303E3FDB1F26F6E800DB8A6E /* BicycleRentingVC's */ = {
+			isa = PBXGroup;
+			children = (
+				30B172071F2769BE000B0A77 /* BiclycleLocationAnnotation */,
+				30B172081F276A39000B0A77 /* BicycleRentingVC */,
+				30B172111F27AE02000B0A77 /* CreditCardHistoryVC */,
+				30B171FB1F273945000B0A77 /* CustomAnnotationView */,
+				30B172091F2772D2000B0A77 /* PaymentVC */,
+				30B172031F276962000B0A77 /* SelectBicycleTypeVC */,
+			);
+			path = "BicycleRentingVC's";
+			sourceTree = "<group>";
+		};
+		303E3FDF1F26F7E300DB8A6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30B1720F1F27ABB1000B0A77 /* libHVTableView.a */,
+				303E3FE81F26F95900DB8A6E /* Foundation.framework */,
+				303E3FE61F26F95100DB8A6E /* UIKit.framework */,
+				303E3FE41F26F94D00DB8A6E /* CoreGraphics.framework */,
+				303E3FE21F26F94800DB8A6E /* CoreLocation.framework */,
+				303E3FE01F26F7E300DB8A6E /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30B171FB1F273945000B0A77 /* CustomAnnotationView */ = {
+			isa = PBXGroup;
+			children = (
+				30B171F91F273933000B0A77 /* CustomAnnotationView.xib */,
+				30B171F41F272452000B0A77 /* MyCustomPinAnnotationView.h */,
+				30B171F51F272452000B0A77 /* MyCustomPinAnnotationView.m */,
+			);
+			path = CustomAnnotationView;
+			sourceTree = "<group>";
+		};
+		30B172001F276736000B0A77 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3014247A1F265991004ABF54 /* AppDelegate.h */,
+				3014247B1F265991004ABF54 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		30B172031F276962000B0A77 /* SelectBicycleTypeVC */ = {
+			isa = PBXGroup;
+			children = (
+				30B172041F2769A4000B0A77 /* SelectBicycleTypeVC.h */,
+				30B172051F2769A4000B0A77 /* SelectBicycleTypeVC.m */,
+			);
+			path = SelectBicycleTypeVC;
+			sourceTree = "<group>";
+		};
+		30B172071F2769BE000B0A77 /* BiclycleLocationAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				303E3FEA1F26FFA900DB8A6E /* BiclycleLocation.h */,
+				303E3FEB1F26FFA900DB8A6E /* BiclycleLocation.m */,
+			);
+			path = BiclycleLocationAnnotation;
+			sourceTree = "<group>";
+		};
+		30B172081F276A39000B0A77 /* BicycleRentingVC */ = {
+			isa = PBXGroup;
+			children = (
+				303E3FDC1F26F7C400DB8A6E /* BicycleRentingVC.h */,
+				303E3FDD1F26F7C400DB8A6E /* BicycleRentingVC.m */,
+			);
+			path = BicycleRentingVC;
+			sourceTree = "<group>";
+		};
+		30B172091F2772D2000B0A77 /* PaymentVC */ = {
+			isa = PBXGroup;
+			children = (
+				30B1720A1F2772EA000B0A77 /* PaymentVC.h */,
+				30B1720B1F2772EA000B0A77 /* PaymentVC.m */,
+			);
+			path = PaymentVC;
+			sourceTree = "<group>";
+		};
+		30B172111F27AE02000B0A77 /* CreditCardHistoryVC */ = {
+			isa = PBXGroup;
+			children = (
+				30B172151F27B1C6000B0A77 /* CreditCardHistoryCell.h */,
+				30B172161F27B1C6000B0A77 /* CreditCardHistoryCell.m */,
+				30B172121F27AE16000B0A77 /* CreditCardHistoryVC.h */,
+				30B172131F27AE16000B0A77 /* CreditCardHistoryVC.m */,
+				30B172181F27B893000B0A77 /* paymentDetails.h */,
+				30B172191F27B893000B0A77 /* paymentDetails.m */,
+			);
+			path = CreditCardHistoryVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		301424731F265991004ABF54 /* BicycleRenting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 301424A41F265991004ABF54 /* Build configuration list for PBXNativeTarget "BicycleRenting" */;
+			buildPhases = (
+				301424701F265991004ABF54 /* Sources */,
+				301424711F265991004ABF54 /* Frameworks */,
+				301424721F265991004ABF54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BicycleRenting;
+			productName = CrossOverBicycle;
+			productReference = 301424741F265991004ABF54 /* BicycleRenting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3014248F1F265991004ABF54 /* BicycleRentingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 301424A71F265991004ABF54 /* Build configuration list for PBXNativeTarget "BicycleRentingTests" */;
+			buildPhases = (
+				3014248C1F265991004ABF54 /* Sources */,
+				3014248D1F265991004ABF54 /* Frameworks */,
+				3014248E1F265991004ABF54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				301424921F265991004ABF54 /* PBXTargetDependency */,
+			);
+			name = BicycleRentingTests;
+			productName = CrossOverBicycleTests;
+			productReference = 301424901F265991004ABF54 /* BicycleRentingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3014249A1F265991004ABF54 /* BicycleRentingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 301424AA1F265991004ABF54 /* Build configuration list for PBXNativeTarget "BicycleRentingUITests" */;
+			buildPhases = (
+				301424971F265991004ABF54 /* Sources */,
+				301424981F265991004ABF54 /* Frameworks */,
+				301424991F265991004ABF54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3014249D1F265991004ABF54 /* PBXTargetDependency */,
+			);
+			name = BicycleRentingUITests;
+			productName = CrossOverBicycleUITests;
+			productReference = 3014249B1F265991004ABF54 /* BicycleRentingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3014246C1F265991004ABF54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "akshay bansal";
+				TargetAttributes = {
+					301424731F265991004ABF54 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = MH3Z54P28V;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					3014248F1F265991004ABF54 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = MH3Z54P28V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 301424731F265991004ABF54;
+					};
+					3014249A1F265991004ABF54 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = MH3Z54P28V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 301424731F265991004ABF54;
+					};
+				};
+			};
+			buildConfigurationList = 3014246F1F265991004ABF54 /* Build configuration list for PBXProject "BicycleRenting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3014246B1F265991004ABF54;
+			productRefGroup = 301424751F265991004ABF54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				301424731F265991004ABF54 /* BicycleRenting */,
+				3014248F1F265991004ABF54 /* BicycleRentingTests */,
+				3014249A1F265991004ABF54 /* BicycleRentingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		301424721F265991004ABF54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B1720E1F277CDB000B0A77 /* creditCard.png in Resources */,
+				30B172021F2767FB000B0A77 /* back_button_white.png in Resources */,
+				30B171F31F271628000B0A77 /* locationPin.png in Resources */,
+				3014248A1F265991004ABF54 /* LaunchScreen.storyboard in Resources */,
+				30B171FA1F273933000B0A77 /* CustomAnnotationView.xib in Resources */,
+				30B171FD1F273FE0000B0A77 /* next.png in Resources */,
+				301424871F265991004ABF54 /* Assets.xcassets in Resources */,
+				3070A7231F27C42C00D2DE9E /* OrderHistory.png in Resources */,
+				303E3FCC1F266E0C00DB8A6E /* logo.png in Resources */,
+				30B171F81F27303D000B0A77 /* bookingIcon.png in Resources */,
+				303E3FCA1F266E0C00DB8A6E /* bicycleLogo.png in Resources */,
+				30B171FF1F276533000B0A77 /* back.png in Resources */,
+				301424821F265991004ABF54 /* Main.storyboard in Resources */,
+				303E3FCB1F266E0C00DB8A6E /* crossoverlogo.png in Resources */,
+				303E3FD51F267E8900DB8A6E /* UserLoginLogo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3014248E1F265991004ABF54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		301424991F265991004ABF54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		301424701F265991004ABF54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303E3FDE1F26F7C400DB8A6E /* BicycleRentingVC.m in Sources */,
+				30B172141F27AE16000B0A77 /* CreditCardHistoryVC.m in Sources */,
+				303E3FDA1F26EF7A00DB8A6E /* KeychainWrapper.m in Sources */,
+				303E3FC11F266B1A00DB8A6E /* RegisterNewUserVC.m in Sources */,
+				3014247C1F265991004ABF54 /* AppDelegate.m in Sources */,
+				301424851F265991004ABF54 /* BicycleRenting.xcdatamodeld in Sources */,
+				303E3FD31F26790000DB8A6E /* Utility.m in Sources */,
+				30B171F61F272452000B0A77 /* MyCustomPinAnnotationView.m in Sources */,
+				303E3FEC1F26FFA900DB8A6E /* BiclycleLocation.m in Sources */,
+				301424791F265991004ABF54 /* main.m in Sources */,
+				30B172171F27B1C6000B0A77 /* CreditCardHistoryCell.m in Sources */,
+				30B1721A1F27B893000B0A77 /* paymentDetails.m in Sources */,
+				30B1720C1F2772EA000B0A77 /* PaymentVC.m in Sources */,
+				30B172061F2769A4000B0A77 /* SelectBicycleTypeVC.m in Sources */,
+				303E3FBE1F266AE500DB8A6E /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3014248C1F265991004ABF54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301424951F265991004ABF54 /* BicycleRentingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		301424971F265991004ABF54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301424A01F265991004ABF54 /* BicycleRentingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		301424921F265991004ABF54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 301424731F265991004ABF54 /* BicycleRenting */;
+			targetProxy = 301424911F265991004ABF54 /* PBXContainerItemProxy */;
+		};
+		3014249D1F265991004ABF54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 301424731F265991004ABF54 /* BicycleRenting */;
+			targetProxy = 3014249C1F265991004ABF54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		301424801F265991004ABF54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				301424811F265991004ABF54 /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		301424881F265991004ABF54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				301424891F265991004ABF54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		301424A21F265991004ABF54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		301424A31F265991004ABF54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		301424A51F265991004ABF54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MH3Z54P28V;
+				INFOPLIST_FILE = BicycleRenting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/HVTableView",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = akshay.BicycleRenting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		301424A61F265991004ABF54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MH3Z54P28V;
+				INFOPLIST_FILE = BicycleRenting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/HVTableView",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = akshay.BicycleRenting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		301424A81F265991004ABF54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MH3Z54P28V;
+				INFOPLIST_FILE = BicycleRentingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = akshay.BicycleRentingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BicycleRenting.app/BicycleRenting";
+			};
+			name = Debug;
+		};
+		301424A91F265991004ABF54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MH3Z54P28V;
+				INFOPLIST_FILE = BicycleRentingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = akshay.BicycleRentingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BicycleRenting.app/BicycleRenting";
+			};
+			name = Release;
+		};
+		301424AB1F265991004ABF54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MH3Z54P28V;
+				INFOPLIST_FILE = BicycleRentingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "akshay. BicycleRentingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CrossOverBicycle;
+			};
+			name = Debug;
+		};
+		301424AC1F265991004ABF54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MH3Z54P28V;
+				INFOPLIST_FILE = BicycleRentingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "akshay. BicycleRentingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CrossOverBicycle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3014246F1F265991004ABF54 /* Build configuration list for PBXProject "BicycleRenting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				301424A21F265991004ABF54 /* Debug */,
+				301424A31F265991004ABF54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		301424A41F265991004ABF54 /* Build configuration list for PBXNativeTarget "BicycleRenting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				301424A51F265991004ABF54 /* Debug */,
+				301424A61F265991004ABF54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		301424A71F265991004ABF54 /* Build configuration list for PBXNativeTarget "BicycleRentingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				301424A81F265991004ABF54 /* Debug */,
+				301424A91F265991004ABF54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		301424AA1F265991004ABF54 /* Build configuration list for PBXNativeTarget "BicycleRentingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				301424AB1F265991004ABF54 /* Debug */,
+				301424AC1F265991004ABF54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		301424831F265991004ABF54 /* BicycleRenting.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				301424841F265991004ABF54 /* BicycleRenting.xcdatamodel */,
+			);
+			currentVersion = 301424841F265991004ABF54 /* BicycleRenting.xcdatamodel */;
+			path = BicycleRenting.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3014246C1F265991004ABF54 /* Project object */;
+}
