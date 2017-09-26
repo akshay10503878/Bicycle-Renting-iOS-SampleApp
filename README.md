@@ -39,11 +39,6 @@ The following technologies have been used :
 
 ScreenShots:
 
-![Alt text](/ScreenShots/loginView.png?raw=true  "LoginView")   
-![Alt text](/ScreenShots/RegisterView.png?raw=true  "RegisterView")   
-![Alt text](/ScreenShots/MainScreen.png?raw=true  "Mainscreen")   
-![Alt text](/ScreenShots/BicycleType.png?raw=true  "BicycleType")   
-![Alt text](/ScreenShots/PaymentScreen.png?raw=true  "PayemntScreen")
-![Alt text](/ScreenShots/SavedCards.png?raw=true  "SavedCards")  
+![Alt text](/ScreenShots/loginView.png?raw=true  "LoginView")   |    ![Alt text](/ScreenShots/RegisterView.png?raw=true  "RegisterView")  |  ![Alt text](/ScreenShots/MainScreen.png?raw=true  "Mainscreen")  |  ![Alt text](/ScreenShots/BicycleType.png?raw=true  "BicycleType")   |  ![Alt text](/ScreenShots/PaymentScreen.png?raw=true  "PayemntScreen")    |  ![Alt text](/ScreenShots/SavedCards.png?raw=true  "SavedCards")
 
 
